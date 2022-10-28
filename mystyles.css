@@ -1,3 +1,58 @@
-h1{
-background-color: red;
+
+body {
+  background-color: rgb(215, 188, 188);
 }
+h1{
+  color:#ffff;
+  font-style:oblique;
+  font-size: medium;
+  text-align: right;
+ 
+}
+h2{
+  color:#ffff;
+  font-style:oblique;
+  font-size:50px;
+  text-align:center;
+ 
+}
+
+thead {  
+    background: rgb(163, 126, 126);
+    position: sticky;   
+    top: 0; 
+
+}
+ /* https://blog.duda.co/create-a-fixed-header */
+ 
+table { 
+    border-collapse: collapse; 
+    width: 100%; 
+    box-shadow: 0px 0 px 20 px;
+  } 
+
+  caption{
+    color: rgb(98, 58, 58);
+    font-size: 30px;
+    background-color: #eee;
+    padding: 8px;
+    margin: 19px;
+  }
+  th{
+    color: #eee;
+    font-size: 19px;
+  }
+  th, td { 
+    padding: 0.25rem; 
+    text-align: left; 
+    border: 1px solid rgb(255, 255, 255); 
+  }
+  tbody tr:nth-child(odd) { 
+    background: #eee; 
+  }
+  li{
+    color: rgb(254, 242, 242);
+  }
+  
+ /*Code taken from CCT Slides Web Development: Mastering HTML tables */
+  
