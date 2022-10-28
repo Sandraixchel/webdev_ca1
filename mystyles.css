@@ -1,12 +1,14 @@
 
 body {
   background-color: rgb(215, 188, 188);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h1{
   color:#ffff;
   font-style:oblique;
   font-size: medium;
   text-align: right;
+  
  
 }
 h2{
@@ -28,7 +30,7 @@ thead {
 table { 
     border-collapse: collapse; 
     width: 100%; 
-    box-shadow: 0px 0 px 20 px;
+   
   } 
 
   caption{
